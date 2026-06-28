@@ -237,7 +237,7 @@ function runCard(){
   return `<div class="run">
     <div class="top">
       <div class="song">${loaded?("♪ "+ui.songName):"no song loaded yet"}</div>
-      <label class="fileLabel">${loaded?"Replace":"Add song"}<input type="file "accept="*/*" id="songFile" style="display:none"></label>
+      <label class="fileLabel">${loaded?"Replace":"Add song"}<input type="file" accept="audio/*" id="songFile" style="display:none"></label>
     </div>
     <div class="timer idle" id="timer">${fmt(0)}</div>
     <div class="tstatus" id="tstatus">${loaded?"ready":"add your audio file to run with the song"}</div>
