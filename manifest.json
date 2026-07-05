@@ -1,0 +1,23 @@
+{
+  "name": "Bring Sally Up",
+  "short_name": "Sally",
+  "description": "Two clocks: a floor you defend, a ceiling you chase.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#14110E",
+  "theme_color": "#14110E",
+  "icons": [
+    { "src": "icon.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    {
+      "name": "Pull-ups",
+      "short_name": "Pull-ups",
+      "description": "Open straight on the Pull-ups tab",
+      "url": "./?lift=pull",
+      "icons": [{ "src": "icon.png", "sizes": "512x512", "type": "image/png" }]
+    }
+  ]
+}
